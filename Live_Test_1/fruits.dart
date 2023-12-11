@@ -1,7 +1,7 @@
 void displayFruitDetails(List<Map<String, dynamic>> list) {
   for (int i = 0; i < list.length; i++) {
     print(
-        "Name: ${list[i]["Name"]}, Color: ${list[i]["Color"]}, Price: ${list[i]["Price"]}");
+        "Name: ${list[i]["Name"]}, Color: ${list[i]["Color"]}, Price: \$${list[i]["Price"]}");
   }
 }
 
